@@ -1,12 +1,7 @@
+package RangeSumOfBST;
+
 import java.util.*;
 import java.io.*;
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
 
 class Solution {
     int ans = 0;
@@ -91,3 +86,4 @@ public class MainClass {
         }
     }
 }
+

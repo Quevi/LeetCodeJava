@@ -1,3 +1,4 @@
+package BalancedStrings;
 class Solution {
     public int balancedStringSplit(String s) {
         int numOfBalancedString = 0;
@@ -27,7 +28,7 @@ class Solution {
     }
 }
 
-public class BalancedStrings {
+public class MainClass {
     public static void main(String[] args){
         System.out.println(new Solution().balancedStringSplit(args[0]));
     }
